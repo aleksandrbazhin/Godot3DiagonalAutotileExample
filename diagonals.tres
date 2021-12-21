@@ -2,7 +2,7 @@
 
 [ext_resource path="res://overlay_7_255_diagonal_generated.png" type="Texture" id=1]
 [ext_resource path="res://overlay_7_255_diagonal_type2_generated.png" type="Texture" id=2]
-[ext_resource path="C:/Users/user/Desktop/diagonals/no_diag.png" type="Texture" id=3]
+[ext_resource path="res://no_diag.png" type="Texture" id=3]
 
 [resource]
 0/name = "overlay_7_255_diagonal_generated"
