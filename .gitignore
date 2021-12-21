@@ -1,0 +1,7 @@
+.import/*
+*~
+*.translation
+default_env.tres
+generated.*
+addons/*
+*.kra
