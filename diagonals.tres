@@ -3,6 +3,7 @@
 [ext_resource path="res://overlay_7_255_diagonal_generated.png" type="Texture" id=1]
 [ext_resource path="res://overlay_7_255_diagonal_type2_generated.png" type="Texture" id=2]
 
+
 [resource]
 0/name = "type_1"
 0/texture = ExtResource( 1 )
