@@ -12,7 +12,9 @@ radius = 32.0624
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = ExtResource( 1 )
 cell_size = Vector2( 48, 48 )
+show_collision = true
 format = 1
+tile_data = PoolIntArray( 131080, 0, 24, 196616, 0, 13, 196617, 0, 393240, 262153, 0, 262149, 262154, 0, 393224, 262160, 1, 65556, 262161, 1, 196608, 327691, 0, 262144, 327694, 1, 65556, 327695, 1, 196614, 327696, 1, 131075, 393229, 1, 65542, 393230, 1, 131075, 458764, 1, 65538, 524299, 1, 2, 589831, 2, 196609, 589832, 2, 196610, 589833, 2, 196610, 589834, 2, 196610, 589835, 2, 196611 )
 
 [node name="KinematicBody2D" type="KinematicBody2D" parent="TileMap"]
 position = Vector2( 586, 51 )
