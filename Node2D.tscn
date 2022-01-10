@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=2]
 
-[ext_resource path="res://collisions.tres" type="TileSet" id=1]
+[ext_resource path="res://diagonals.tres" type="TileSet" id=1]
 [ext_resource path="res://icon.png" type="Texture" id=2]
 [ext_resource path="res://Body.gd" type="Script" id=3]
 
@@ -13,7 +13,6 @@ radius = 32.0624
 tile_set = ExtResource( 1 )
 cell_size = Vector2( 48, 48 )
 format = 1
-tile_data = PoolIntArray( 65538, 0, 20, 65539, 0, 196612, 65540, 0, 131080, 131074, 0, 27, 131077, 0, 262156, 131078, 0, 131096, 196610, 0, 13, 196611, 0, 393232, 196614, 0, 262157, 196615, 0, 393240, 262147, 0, 262169, 262151, 0, 262157, 262152, 0, 393240, 327683, 0, 5, 327684, 0, 393228, 327685, 0, 131096, 327691, 1, 8, 393221, 0, 262149, 393222, 0, 393224, 393225, 0, 262169, 393228, 1, 262152, 458761, 0, 21, 458762, 0, 458752, 458765, 1, 262152, 458771, 1, 16, 524295, 0, 9, 524297, 0, 65539, 524302, 1, 262152, 524307, 1, 9, 524309, 1, 65552, 589832, 0, 262146, 589838, 4, 196608, 589839, 1, 262144, 589840, 4, 196609, 589841, 4, 196610, 589842, 4, 196610, 589843, 4, 196611, 589844, 1, 262150, 589845, 1, 131073 )
 
 [node name="KinematicBody2D" type="KinematicBody2D" parent="TileMap"]
 position = Vector2( 586, 51 )
