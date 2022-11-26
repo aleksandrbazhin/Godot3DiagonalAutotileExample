@@ -9,19 +9,19 @@ radius = 32.0624
 
 [node name="Node2D" type="Node2D"]
 
-[node name="TileMap" type="TileMap" parent="."]
+[node name="DiagonalsTileMap" type="TileMap" parent="."]
 tile_set = ExtResource( 1 )
 cell_size = Vector2( 48, 48 )
 show_collision = true
 format = 1
-tile_data = PoolIntArray( 131080, 0, 24, 196616, 0, 13, 196617, 0, 393240, 262153, 0, 262149, 262154, 0, 393224, 262160, 1, 65556, 262161, 1, 196608, 327691, 0, 262144, 327694, 1, 65556, 327695, 1, 196614, 327696, 1, 131075, 393229, 1, 65542, 393230, 1, 131075, 458764, 1, 65538, 524299, 1, 2, 589831, 2, 196609, 589832, 2, 196610, 589833, 2, 196610, 589834, 2, 196610, 589835, 2, 196611 )
+tile_data = PoolIntArray( -65522, 3, 196609, -65521, 3, 262147, 15, 3, 131073, 16, 3, 3, 65552, 3, 393216, 131080, 0, 24, 196615, 3, 196608, 196616, 0, 13, 196617, 0, 393240, 262153, 0, 262149, 262154, 0, 393224, 262160, 1, 65556, 262161, 1, 196608, 327691, 0, 262144, 327694, 1, 65556, 327695, 1, 196614, 327696, 1, 131075, 393223, 2, 196609, 393224, 2, 196611, 393229, 1, 65542, 393230, 1, 131075, 458764, 1, 65538, 524290, 3, 262152, 524291, 3, 11, 524299, 1, 2, 589826, 3, 196616, 589827, 3, 131079, 589830, 3, 196608, 589831, 2, 196609, 589832, 2, 196610, 589833, 2, 196610, 589834, 2, 196610, 589835, 2, 196611, 655363, 3, 393216, 720901, 2, 8, 720902, 2, 10, 720903, 2, 10, 720904, 2, 10, 720905, 2, 11, 786434, 2, 196609, 786435, 2, 196610, 786436, 2, 196610, 786437, 2, 131080, 786438, 2, 131081, 786439, 2, 131081, 786440, 2, 131081, 786441, 2, 131083, 851973, 2, 196616, 851974, 2, 196617, 851975, 2, 196617, 851976, 2, 196617, 851977, 2, 196614, 851978, 2, 196611 )
 
-[node name="KinematicBody2D" type="KinematicBody2D" parent="TileMap"]
+[node name="KinematicBody2D" type="KinematicBody2D" parent="DiagonalsTileMap"]
 position = Vector2( 586, 51 )
 script = ExtResource( 3 )
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/KinematicBody2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DiagonalsTileMap/KinematicBody2D"]
 shape = SubResource( 1 )
 
-[node name="Sprite" type="Sprite" parent="TileMap/KinematicBody2D/CollisionShape2D"]
+[node name="Sprite" type="Sprite" parent="DiagonalsTileMap/KinematicBody2D/CollisionShape2D"]
 texture = ExtResource( 2 )
